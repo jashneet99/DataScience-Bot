@@ -1,0 +1,88 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Discuss Supervised Learning
+  steps:
+  - intent: SupervisedLearning
+  - action: utter_SupervisedLearning
+
+- rule: Explore Unsupervised Learning
+  steps:
+  - intent: UnsupervisedLearning
+  - action: utter_UnsupervisedLearning
+
+- rule: Introduce Reinforcement Learning
+  steps:
+  - intent: ReinforcementLearning
+  - action: utter_ReinforcementLearning
+
+- rule: Highlight Feature Engineering
+  steps:
+  - intent: FeatureEngineering
+  - action: utter_FeatureEngineering
+
+- rule: Cover Neural Networks
+  steps:
+  - intent: NeuralNetworks
+  - action: utter_NeuralNetworks
+
+- rule: Explain Gradient Descent
+  steps:
+  - intent: GradientDescent
+  - action: utter_GradientDescent
+
+- rule: Address Overfitting and Underfitting
+  steps:
+  - intent: OverfittingUnderfitting
+  - action: utter_OverfittingUnderfitting
+
+- rule: Demonstrate Cross-Validation
+  steps:
+  - intent: CrossValidation
+  - action: utter_CrossValidation
+
+- rule: Discuss Ensemble Learning
+  steps:
+  - intent: EnsembleLearning
+  - action: utter_EnsembleLearning
+
+- rule: Guide Hyperparameter Tuning
+  steps:
+  - intent: HyperparameterTuning
+  - action: utter_HyperparameterTuning
+
+- rule: Dive into Natural Language Processing
+  steps:
+  - intent: NaturalLanguageProcessing
+  - action: utter_NaturalLanguageProcessing
+
+- rule: Explore Computer Vision
+  steps:
+  - intent: ComputerVision
+  - action: utter_ComputerVision
+
+- rule: Explain Transfer Learning
+  steps:
+  - intent: TransferLearning
+  - action: utter_TransferLearning
+
+- rule: Cover Time Series Analysis
+  steps:
+  - intent: TimeSeriesAnalysis
+  - action: utter_TimeSeriesAnalysis
+
+- rule: Address Bias and Fairness in Machine Learning
+  steps:
+  - intent: BiasFairnessMachineLearning
+  - action: utter_BiasFairnessMachineLearning

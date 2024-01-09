@@ -1,0 +1,109 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - SupervisedLearning
+  - UnsupervisedLearning
+  - ReinforcementLearning
+  - FeatureEngineering
+  - NeuralNetworks
+  - GradientDescent
+  - OverfittingUnderfitting
+  - CrossValidation
+  - EnsembleLearning
+  - HyperparameterTuning
+  - NaturalLanguageProcessing
+  - ComputerVision
+  - TransferLearning
+  - TimeSeriesAnalysis
+  - BiasFairnessMachineLearning
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_SupervisedLearning:
+    - text: "Certainly! Supervised learning involves learning a function from labeled training data."
+    - text: "In supervised learning, the model learns from labeled examples. How can I help you understand it better?"
+
+  utter_UnsupervisedLearning:
+    - text: "Good question! Unsupervised learning deals with unlabeled data and finding patterns within it."
+    - text: "Unsupervised learning is fascinating! Let me elaborate on how it differs from supervised learning."
+
+  utter_ReinforcementLearning:
+    - text: "Reinforcement learning is all about learning from interactions and receiving feedback in the form of rewards."
+    - text: "In reinforcement learning, agents learn by trial and error. How can I assist you with more details?"
+
+  utter_FeatureEngineering:
+    - text: "Feature engineering involves creating new features from existing data to enhance model performance."
+    - text: "Feature engineering is an art! Let me share some techniques and examples with you."
+
+  utter_NeuralNetworks:
+    - text: "Neural networks are a fundamental concept in machine learning, mimicking the human brain's architecture."
+    - text: "Neural networks are powerful models. How can I help you understand their working principles?"
+
+  utter_GradientDescent:
+    - text: "Gradient descent is an optimization algorithm used to minimize the cost function during model training."
+    - text: "Optimizing models with gradient descent is crucial. Let me explain how it works."
+
+  utter_OverfittingUnderfitting:
+    - text: "Overfitting and underfitting are common challenges in machine learning that impact model generalization."
+    - text: "Addressing overfitting and underfitting is vital for robust models. How can I assist you further?"
+
+  utter_CrossValidation:
+    - text: "Cross-validation is a technique to assess a model's performance and generalization ability."
+    - text: "Cross-validation is a crucial step in model evaluation. Let me provide more insights."
+
+  utter_EnsembleLearning:
+    - text: "Ensemble learning combines predictions from multiple models to improve overall performance."
+    - text: "Ensemble learning is a powerful technique. How can I help you understand its benefits?"
+
+  utter_HyperparameterTuning:
+    - text: "Hyperparameter tuning involves optimizing model parameters to enhance performance."
+    - text: "Tuning hyperparameters is essential for optimal model performance. Let me explain the process."
+
+  utter_NaturalLanguageProcessing:
+    - text: "Natural Language Processing (NLP) enables machines to understand and generate human-like language."
+    - text: "NLP is fascinating! How can I help you explore its applications and concepts?"
+
+  utter_ComputerVision:
+    - text: "Computer vision leverages machine learning for tasks like image recognition and object detection."
+    - text: "Computer vision is exciting! Let me share some insights into its applications and technologies."
+
+  utter_TransferLearning:
+    - text: "Transfer learning involves leveraging knowledge from pre-trained models to improve performance on new tasks."
+    - text: "Transfer learning is a powerful concept. How can I assist you in understanding its applications?"
+
+  utter_TimeSeriesAnalysis:
+    - text: "Time series analysis uses machine learning for predicting future values based on historical data."
+    - text: "Time series analysis is crucial for forecasting. Let me explain its significance in machine learning."
+
+  utter_BiasFairnessMachineLearning:
+    - text: "Addressing bias and ensuring fairness in machine learning models is crucial for ethical AI."
+    - text: "Ensuring fairness is a priority in machine learning. How can I help you understand strategies to mitigate bias?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

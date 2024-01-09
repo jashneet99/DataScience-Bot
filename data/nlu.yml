@@ -1,0 +1,181 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: SupervisedLearning
+  examples: |
+    - Can you explain how supervised learning works?
+    - What are some applications of supervised learning?
+    - How is labeled training data used in supervised learning?
+
+- intent: UnsupervisedLearning
+  examples: |
+    - What is the main difference between supervised and unsupervised learning?
+    - Can you provide examples of unsupervised learning algorithms?
+    - How does clustering work in unsupervised learning?
+
+- intent: ReinforcementLearning
+  examples: |
+    - How does reinforcement learning differ from other paradigms?
+    - Can you give an example of a reinforcement learning scenario?
+    - What is the role of rewards in reinforcement learning?
+
+- intent: FeatureEngineering
+  examples: |
+    - What is feature engineering, and why is it important?
+    - Can you provide examples of feature engineering techniques?
+    - How does feature selection contribute to model performance?
+
+- intent: NeuralNetworks
+  examples: |
+    - Explain the architecture of a neural network.
+    - What is the role of activation functions in neural networks?
+    - Can you compare feedforward and recurrent neural networks?
+
+- intent: GradientDescent
+  examples: |
+    - How does gradient descent optimize a model?
+    - What is the learning rate in gradient descent, and why is it crucial?
+    - Can you explain the difference between batch and stochastic gradient descent?
+
+- intent: OverfittingUnderfitting
+  examples: |
+    - What is overfitting, and how can it be mitigated?
+    - How does underfitting impact model performance?
+    - What techniques are used to address overfitting?
+
+- intent: CrossValidation
+  examples: |
+    - Why is cross-validation important in machine learning?
+    - Can you explain the k-fold cross-validation technique?
+    - How does cross-validation help in model evaluation?
+
+- intent: EnsembleLearning
+  examples: |
+    - What is ensemble learning, and how does it improve model performance?
+    - Can you provide examples of ensemble learning algorithms?
+    - How are decisions made in an ensemble of models?
+
+- intent: HyperparameterTuning
+  examples: |
+    - What are hyperparameters in machine learning?
+    - How does hyperparameter tuning contribute to model optimization?
+    - Can you explain grid search and random search for hyperparameter tuning?
+
+- intent: NaturalLanguageProcessing
+  examples: |
+    - How does machine learning contribute to natural language processing?
+    - What are some common NLP applications?
+    - Can you explain the concept of word embeddings in NLP?
+
+- intent: ComputerVision
+  examples: |
+    - What role does machine learning play in computer vision?
+    - How are convolutional neural networks (CNNs) used in image recognition?
+    - Can you provide examples of computer vision applications?
+
+- intent: TransferLearning
+  examples: |
+    - What is transfer learning, and how does it work?
+    - Can you provide examples of transfer learning in machine learning?
+    - How does pre-trained model adoption facilitate transfer learning?
+
+- intent: TimeSeriesAnalysis
+  examples: |
+    - How does machine learning contribute to time series analysis?
+    - Can you explain the importance of forecasting in time series analysis?
+    - What are some common algorithms used for time series prediction?
+
+- intent: BiasFairnessMachineLearning
+  examples: |
+    - What is the impact of bias in machine learning models?
+    - How can fairness be ensured in machine learning applications?
+    - Can you provide examples of strategies to mitigate bias in models?
